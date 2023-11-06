@@ -1,0 +1,249 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif, 'poppins';
+}
+body{
+    background-image: linear-gradient(115deg, rgb(66, 196, 247), rgb(233, 149, 233), rgb(243, 189, 89));
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130vh;
+}
+.navbar{
+    margin-top: 0px;
+    padding: 10px;
+    display: flex;
+}
+.right h4{
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 25px;
+
+}
+.left nav ul{
+    display: flex;
+    margin-top: 0;
+    margin-left: 500px;
+}
+.left li{
+    list-style-type: none;
+    margin-top: 0;
+    padding: 30px;
+    /* text-align: right;   */
+}
+.left  a{
+    text-decoration: none;
+    color: black;
+    /* text-align: right;
+    justify-content: space-between; */
+}
+.left li a:hover{
+     font-size: 1.2rem;
+     color: #fff;
+}
+.row{
+    margin-top: 0px;
+    margin-left: 100px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    color: #fff;
+}
+.col-2 h1{
+    font-size: 5rem;
+}
+
+button{
+    border-style: none;
+    border-radius: 15px;
+    background-color: rgb(92, 92, 203);
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 130px;
+    height: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    transition: background 0.5s;
+}
+button:hover{
+    background: blue;
+}
+.col-2 img{
+    max-width: 90%;
+    padding: 50px 0;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.btn{
+    display: inline-block;
+    background: black;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-style: none;
+    border-radius: 10px;
+    width: 200px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #ff523b;
+}
+
+.section-2{
+    color: black;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 70%;
+    height: 185vh;
+    margin-left: 185px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    /* border: 5px solid blue; */
+}
+.section-2 h2{
+    font-weight: 600;
+    font-size: 2rem;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 230px;
+    padding: 10px;
+}
+.section-2 h2 span{
+    color: rgb(120, 26, 208);
+}
+.clients{
+    margin-left: 90px;
+    margin-top: 60px;
+}
+.clients ul{
+    display: flex;
+    list-style: none;
+}
+.clients li {
+    padding: 50px;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.clients li a{
+    color: black;
+    text-decoration: none;
+}
+.heading{
+    margin-top: 100px;
+}
+#head1 {
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 550;
+}
+#head2 {
+    margin-left: 45px;
+    font-size: 40px;
+    font-weight: 550;
+}
+#head3 {
+    margin-left: 120px;
+    font-size: 40px;
+    font-weight: 550;
+}
+#elements{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    padding: 0 120px;
+    justify-content: space-between;
+}
+#elements .element{
+    width: 33%;
+    height: 400px;
+    padding: 5px;
+    /* background-color: rgb(217, 251, 217); */
+    background-color: #fff;
+}
+.element .pic{
+    width: 100%;
+    height: 60%;
+    background-image: url(cube.jpg);
+    background-size: cover;
+}
+.element h3{
+    color: black;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.element h5 {
+    margin-top: 10px;
+}
+.banner {
+    width: 80%;
+    background-color: rgb(170, 201, 254);
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.one {
+    width: 70%;
+    height: 25px;
+}
+.one h3 {
+    margin-left: 90px;
+    padding: 40px;
+}
+.buttonone {
+    display: flex;
+    position: relative;
+    margin-left: 550px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.section-3 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    margin-top: 1230px;
+    background-image: url(Screenshot\ \(20\).png);
+    background-size: cover;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 1900px;
+    display: flex;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+.footer ul{
+    margin-top: 70px;
+    padding: 30px;
+    list-style-type: none;
+}
+.footer ul p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.footer ul a {
+    text-decoration: none;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.footer ul li p #head{
+    font-size: 2rem;
+}
